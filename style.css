@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3cfcf;
+    color: #890e0e;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff8d8;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f5a700;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem 1rem 1rem 1rem;
+}
+nav a:hover{
+    background-color:#ffcc3f;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 60%;
+}
+
+aside {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+aside img:hover {
+    width: 16rem;
+    height:16rem;
+    box-shadow: 0 0 15px #f5a700;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f5a700;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.textop{
+    color: #890e0e;
+}
+.active {
+    background-color: #ffbc00;
+}
+.fotogatodiv{
+    margin: 0 17.5% 0 17.5%;
+}
+.fotogatoimg{
+    width: 15rem;
+    height: 15rem;
+}
